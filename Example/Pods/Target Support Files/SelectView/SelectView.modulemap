@@ -1,0 +1,6 @@
+framework module SelectView {
+  umbrella header "SelectView-umbrella.h"
+
+  export *
+  module * { export * }
+}

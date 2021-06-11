@@ -7,8 +7,9 @@
 //
 
 #import "LZViewController.h"
+#import "SelectView.h"
 
-@interface LZViewController ()
+@interface LZViewController ()<SelectViewDelegate>
 
 @end
 
@@ -17,7 +18,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    SelectView *selevtView = [[SelectView alloc] initWithFrame:CGRectMake(0, self.view.center.y, [UIScreen mainScreen].bounds.size.width, 50)];
+    selevtView.array = @[@"111",@"222",@"333",@"444",@"555",@"666",@"777",@"888",@"999",@"000"];
+    [self.view addSubview:selevtView];
+    selevtView.delegate = self;
+}
+
+- (void)selectViewDidSelectAtIndex:(NSInteger)index
+{
+    NSLog(@"点击的第%ld个",(long)index);
 }
 
 - (void)didReceiveMemoryWarning

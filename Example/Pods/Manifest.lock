@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SelectView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SelectView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SelectView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SelectView: d7e8f6089db13afdad94281b2140e8cacf2dea6b
+
+PODFILE CHECKSUM: 609b1b7023fb2ea515f967286925b2c64941e27c
+
+COCOAPODS: 1.10.0

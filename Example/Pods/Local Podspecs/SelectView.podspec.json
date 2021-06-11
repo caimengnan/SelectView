@@ -1,0 +1,22 @@
+{
+  "name": "SelectView",
+  "version": "0.1.0",
+  "summary": "A short description of SelectView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/570788791@qq.com/SelectView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "570788791@qq.com": "570788791@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/570788791@qq.com/SelectView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SelectView/Classes/**/*"
+}
